@@ -1,11 +1,11 @@
 # edu-franka_simulator_ros2
 Franka Panda simulation for AUT-720 Advanced Robotics
 
-#Installation
+## Installation
 
-##Dependecies
+### Dependecies
 ```
-sudo apt install ros-humble-ros2-control ros-humble-ros2-controllers ros-humble-joint-state-publisher-gui ros-humble-effort-controllers ros-humble-ros-gz
+sudo apt install ros-humble-ros2-control ros-humble-ros2-controllers ros-humble-joint-state-publisher-gui ros-humble-ros-gz
 ```
 
 ```
