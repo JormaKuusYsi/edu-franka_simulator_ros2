@@ -54,7 +54,8 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://elfin_description/meshes/elfin3/elfin_base.STL"/>
+        <mesh
+          filename="package://elfin_description/meshes/elfin3/elfin_base.STL" />
       </geometry>
       <material
         name="metal_white"/>
@@ -64,7 +65,8 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://elfin_description/meshes/elfin3/elfin_base.STL" />
+        <mesh
+          filename="package://elfin_description/meshes/elfin3/elfin_base.STL" />
       </geometry>
     </collision>
   </link>
