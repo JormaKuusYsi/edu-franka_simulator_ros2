@@ -21,8 +21,6 @@ Example:
 LIBGL_ALWAYS_SOFTWARE=1 ros2 launch elfin_gazebo elfin.launch.py
 ```
 
-
-
 ## Installation
 ### Install effort-controllers to use torque-control interface
 ```
@@ -35,13 +33,17 @@ sudo apt-get install ros-humble-gazebo-ros-pkgs ros-humble-gazebo-ros2-control r
 ### Download, create a workspace and build 
     $ mkdir -p elfin_ros2_ws/src
     $ cd ~/elfin_ros2_ws/src
-    $ git clone https://github.com/tau-alma/edu-elfin_simulation.git
+    $ git clone https://github.com/JormaKuusYsi/edu-franka_simulator_ros2.git
     $ cd ~/elfin_ros2_ws/
-    $ cmake build
+    $ colcon build
     $ source devel/setup.bash
 
 ## Launch
+Open new terminal:
 ```
+cd elfin_ros2_ws/
+colcon build
+source install/setup.bash
 export IGN_GAZEBO_RESOURCE_PATH=${IGN_GAZEBO_RESOURCE_PATH}:#PATH_TO_ELFIN_FOLDER
 ```
 i.e. 
