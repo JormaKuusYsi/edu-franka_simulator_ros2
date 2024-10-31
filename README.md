@@ -30,6 +30,13 @@ sudo apt install ros-humble-ros2-control ros-humble-ros2-controllers ros-humble-
 ```
 sudo apt-get install ros-humble-gazebo-ros-pkgs ros-humble-gazebo-ros2-control ros-humble-effort-controllers
 ```
+## install controller interface, control messages and kdl parser:
+```
+sudo apt install ros-humble-controller-interface
+sudo apt install ros-humble-control-msgs
+sudo apt install ros-humble-kdl-parser
+```
+
 ### Download, create a workspace and build 
     $ mkdir -p elfin_ros2_ws/src
     $ cd ~/elfin_ros2_ws/src
