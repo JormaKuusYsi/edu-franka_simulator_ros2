@@ -48,7 +48,7 @@ export IGN_GAZEBO_RESOURCE_PATH=${IGN_GAZEBO_RESOURCE_PATH}:#PATH_TO_ELFIN_FOLDE
 ```
 i.e. 
 ```
-export IGN_GAZEBO_RESOURCE_PATH=${IGN_GAZEBO_RESOURCE_PATH}:/home/user/elfin_ros2_ws/src/elfin
+export IGN_GAZEBO_RESOURCE_PATH=${IGN_GAZEBO_RESOURCE_PATH}:/home/onni/elfin_ros2_ws/src
 ```
 ```
 ros2 launch elfin_gazebo elfin.launch.py
